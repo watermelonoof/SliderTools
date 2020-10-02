@@ -2,16 +2,16 @@
  Some useful feature for sliders in AI2 and its disturbution.
  
 # Blocks
-<table>
+<table style=width:100%>
     <tr>
         <th width="45%">Blocks</th>
         <th width="55%">Description</th>
     </tr>
     <tr>
-        <td>
+        <td width = 45%>
             <img src="assets/BlockImages/ErrorOccurred.png" alt = "ErrorOccurred">
         </td>
-        <td>Rasies when any error occurred.<br><br>
+        <td width = 55%>Rasies when any error occurred.<br><br>
             <table>
                 <tr>
                     <th>Params</th>
