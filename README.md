@@ -28,7 +28,7 @@
     </tr>
     <tr>
         <td>
-            <img src = "assets/BlockImages/OnChange.png" alt = "OnChange">
+            <img src = "assets/BlockImages/Changed.png" alt = "OnChange">
         </td>
         <td>Raises when any registered slider's thumb position changed.<br>If it is changed by the user, fromUser will be
             true, otherwise false.<br><br>
@@ -58,7 +58,7 @@
     </tr>
     <tr>
         <td>
-            <img src = "assets/BlockImages/OnTouchDown.png" alt = "OnTouchDown">
+            <img src = "assets/BlockImages/TouchDown.png" alt = "OnTouchDown">
         </td>
         <td>Rasies when any registered slider is touched down.<br><br>
             <table>
@@ -77,7 +77,7 @@
     </tr>
     <tr>
         <td>
-            <img src="assets/BlockImages/OnTouchUp.png" alt = "OnTouchUp">
+            <img src="assets/BlockImages/TouchUp.png" alt = "OnTouchUp">
         </td>
         <td>Rasies when any registered slider is touched up.<br><br>
             <table>
