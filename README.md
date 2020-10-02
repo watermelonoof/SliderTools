@@ -139,13 +139,10 @@
 The Error Ocuured event will only return exception error.
 	
 # Change Log
-<hr>
 
 ## v1.1
 Changed the name of OnChange to Changed, suggested by [@Vishwas](https://community.kodular.io/u/vishwas)
 
-<hr>
-
 # Reference
-[Kodular Community]()
-[MIT AI2 Community]()
+[Kodular Community](https://community.kodular.io/t/free-open-source-slidertools-bit-of-useful-feature-for-sliders/86464)
+[MIT AI2 Community](https://community.appinventor.mit.edu/t/free-open-source-slidertools-bit-of-useful-feature-for-sliders/17459)
