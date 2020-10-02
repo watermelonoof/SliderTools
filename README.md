@@ -2,10 +2,10 @@
  Some useful feature for sliders in AI2 and its disturbution.
  
 # Blocks
-<table style="width:100%">
+<table>
     <tr>
-        <th>Blocks</th>
-        <th>Description</th>
+        <th width = "35%">Blocks</th>
+        <th width = "65%">Description</th>
     </tr>
     <tr>
         <td>
