@@ -4,8 +4,8 @@
 # Blocks
 <table>
     <tr>
-        <th width = "35%">Blocks</th>
-        <th width = "65%">Description</th>
+        <th width = "45%">Blocks</th>
+        <th width = "55%">Description</th>
     </tr>
     <tr>
         <td>
