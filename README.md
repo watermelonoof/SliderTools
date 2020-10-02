@@ -9,7 +9,7 @@
     </tr>
     <tr>
         <td>
-            <img src="assets/BlockImages/ErrorOccurred" alt = "ErrorOccurred">
+            <img src="assets/BlockImages/ErrorOccurred.png" alt = "ErrorOccurred">
         </td>
         <td>Rasies when any error occurred.<br><br>
             <table>
@@ -28,7 +28,7 @@
     </tr>
     <tr>
         <td>
-            <img src = "assets/BlockImages/OnChange" alt = "OnChange">
+            <img src = "assets/BlockImages/OnChange.png" alt = "OnChange">
         </td>
         <td>Raises when any registered slider's thumb position changed. If it is changed by the user, fromUser will be
             true, otherwise false.<br><br>
@@ -58,7 +58,7 @@
     </tr>
     <tr>
         <td>
-            <img src = "assets/BlockImages/OnTouchDown" alt = "OnTouchDown">
+            <img src = "assets/BlockImages/OnTouchDown.png" alt = "OnTouchDown">
         </td>
         <td>Rasies when any registered slider is touched down.<br><br>
             <table>
@@ -77,7 +77,7 @@
     </tr>
     <tr>
         <td>
-            <img src="assets/BlockImages/OnTouchUp" alt = "OnTouchUp">
+            <img src="assets/BlockImages/OnTouchUp.png" alt = "OnTouchUp">
         </td>
         <td>Rasies when any registered slider is touched up.<br><br>
             <table>
@@ -96,7 +96,7 @@
     </tr>
     <tr>
         <td>
-            <img src="assets/BlockImages/Register" alt = "Register">
+            <img src="assets/BlockImages/RegisterSlider.png" alt = "Register">
         </td>
         <td>Register a slider component.<br><br>
             <table>
@@ -115,7 +115,7 @@
     </tr>
     <tr>
         <td>
-            <img scr="assets/BlockImages/Unregister" alt = "Unregister">
+            <img src="assets/BlockImages/UnregisterSlider.png" alt = "Unregister">
         </td>
         <td>Unregister a slider component.<br><br>
             <table>
