@@ -2,14 +2,15 @@
  Some useful feature for sliders in AI2 and its disturbution.
  
 # Blocks
-
 <table style="width:100%">
     <tr>
         <th>Blocks</th>
         <th>Description</th>
     </tr>
     <tr>
-        <td>assets/BlocksImages/ErrorOccurred.png</td>
+        <td>
+            <img src="assets/BlockImages/ErrorOccurred" alt = "ErrorOccurred">
+        </td>
         <td>Rasies when any error occurred.<br><br>
             <table>
                 <tr>
@@ -26,7 +27,9 @@
         </td>
     </tr>
     <tr>
-        <td>assets/BlocksImages/OnChange.png</td>
+        <td>
+            <img src = "assets/BlockImages/OnChange" alt = "OnChange">
+        </td>
         <td>Raises when any registered slider's thumb position changed. If it is changed by the user, fromUser will be
             true, otherwise false.<br><br>
             <table>
@@ -54,7 +57,9 @@
         </td>
     </tr>
     <tr>
-        <td>assets/BlocksImages/OnTouchDown.png</td>
+        <td>
+            <img src = "assets/BlockImages/OnTouchDown" alt = "OnTouchDown">
+        </td>
         <td>Rasies when any registered slider is touched down.<br><br>
             <table>
                 <tr>
@@ -71,7 +76,9 @@
         </td>
     </tr>
     <tr>
-        <td>assets/BlocksImages/OnTouchUp.png</td>
+        <td>
+            <img src="assets/BlockImages/OnTouchUp" alt = "OnTouchUp">
+        </td>
         <td>Rasies when any registered slider is touched up.<br><br>
             <table>
                 <tr>
@@ -88,7 +95,9 @@
         </td>
     </tr>
     <tr>
-        <td>assets/BlocksImages/Register.png</td>
+        <td>
+            <img src="assets/BlockImages/Register" alt = "Register">
+        </td>
         <td>Register a slider component.<br><br>
             <table>
                 <tr>
@@ -105,7 +114,9 @@
         </td>
     </tr>
     <tr>
-        <td>assets/BlocksImages/Unregister.png</td>
+        <td>
+            <img scr="assets/BlockImages/Unregister" alt = "Unregister">
+        </td>
         <td>Unregister a slider component.<br><br>
             <table>
                 <tr>
