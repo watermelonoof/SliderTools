@@ -2,10 +2,10 @@
  Some useful feature for sliders in AI2 and its disturbution.
  
 # Blocks
-<table>
+<table style="width:100%">
     <tr>
-        <th width="45%">Blocks</th>
-        <th width="55%">Description</th>
+        <th style="width:40%">Blocks</th>
+        <th style="width:60%">Description</th>
     </tr>
     <tr>
         <td>
@@ -30,7 +30,7 @@
         <td>
             <img src = "assets/BlockImages/OnChange.png" alt = "OnChange">
         </td>
-        <td>Raises when any registered slider's thumb position changed. If it is changed by the user, fromUser will be
+        <td>Raises when any registered slider's thumb position changed.<br>If it is changed by the user, fromUser will be
             true, otherwise false.<br><br>
             <table>
                 <tr>
@@ -41,17 +41,17 @@
                 <tr>
                     <td>component</td>
                     <td>Component (Slider)</td>
-                    <td>Return the component that it's thumb position changed.</td>
+                    <td>Return the component<br>that it's thumb position changed.</td>
                 </tr>
                 <tr>
                     <td>component</td>
                     <td>Number (float)</td>
-                    <td>Return the position of the slider that it's thumn position changed.</td>
+                    <td>Return the position of the slider<br>that it's thumn position changed.</td>
                 </tr>
                 <tr>
                     <td>fromUser</td>
                     <td>boolean</td>
-                    <td>Return true if the change is made by the User, otherwise false.</td>
+                    <td>Return true if the change is made by the User,<br>otherwise false.</td>
                 </tr>
             </table>
         </td>
