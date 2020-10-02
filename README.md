@@ -9,7 +9,7 @@
         <th>Description</th>
     </tr>
     <tr>
-        <td>assets/BlocksImages/ErrorOccurred</td>
+        <td>assets/BlocksImages/ErrorOccurred.png</td>
         <td>Rasies when any error occurred.<br><br>
             <table>
                 <tr>
@@ -26,7 +26,7 @@
         </td>
     </tr>
     <tr>
-        <td>assets/BlocksImages/OnChange</td>
+        <td>assets/BlocksImages/OnChange.png</td>
         <td>Raises when any registered slider's thumb position changed. If it is changed by the user, fromUser will be
             true, otherwise false.<br><br>
             <table>
@@ -54,7 +54,7 @@
         </td>
     </tr>
     <tr>
-        <td>assets/BlocksImages/OnTouchDown</td>
+        <td>assets/BlocksImages/OnTouchDown.png</td>
         <td>Rasies when any registered slider is touched down.<br><br>
             <table>
                 <tr>
@@ -71,7 +71,7 @@
         </td>
     </tr>
     <tr>
-        <td>assets/BlocksImages/OnTouchUp</td>
+        <td>assets/BlocksImages/OnTouchUp.png</td>
         <td>Rasies when any registered slider is touched up.<br><br>
             <table>
                 <tr>
@@ -88,7 +88,7 @@
         </td>
     </tr>
     <tr>
-        <td>assets/BlocksImages/Register</td>
+        <td>assets/BlocksImages/Register.png</td>
         <td>Register a slider component.<br><br>
             <table>
                 <tr>
@@ -105,7 +105,7 @@
         </td>
     </tr>
     <tr>
-        <td>assets/BlocksImages/Unregister</td>
+        <td>assets/BlocksImages/Unregister.png</td>
         <td>Unregister a slider component.<br><br>
             <table>
                 <tr>
