@@ -139,7 +139,12 @@
 The Error Ocuured event will only return exception error.
 	
 # Change Log
-<small><i>No change log yet ;)</i></small>
+<hr>
+
+## v1.1
+Changed the name of OnChange to Changed, suggested by [@Vishwas](https://community.kodular.io/u/vishwas)
+
+<hr>
 
 # Reference
 [Kodular Community]()
