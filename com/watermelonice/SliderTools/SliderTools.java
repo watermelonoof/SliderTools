@@ -8,9 +8,9 @@ import android.widget.SeekBar;
 
 import java.util.Hashtable;
 
-@DesignerComponent(version = 1,
-                   versionName = "v1.0",
-                   helpUrl = "",
+@DesignerComponent(version = 2,
+                   versionName = "v1.1",
+                   helpUrl = "https://github.com/WaterMelonOof/SliderTools-AI2-Kodular-Extension/",
                    description = "This extension is created for a bit more Tools for Sliders. <br> Craeted by WatermelonIce <br><br> <b>My Profile in Kodular Community: </b><a href=\"https://community.kodular.io/u/WatermelonIce/summary\">My Profile</a><br><b>Support me by subscribing my YouTube Channel: </b> <a href=\"https://www.youtube.com/channel/UCBq9ouxr4C4OZG0sMCgmpwg\">WatermelonIce YouTube Channel</a>",
                    category = ComponentCategory.EXTENSION,
                    nonVisible = true,
@@ -31,18 +31,18 @@ public class SliderTools extends AndroidNonvisibleComponent {
     }
 
     @SimpleEvent(description = "Raises when any registered slider's thumb position changed. If it is changed by the user, fromUser will be true, otherwise false.")
-    public void OnChange(Slider component, float progress, boolean fromUser) {
+    public void Changed(Slider component, float progress, boolean fromUser) {
         EventDispatcher.dispatchEvent(this, "OnChange", component, progress, fromUser);
     }
 
     @SimpleEvent(description = "Rasies when any registered slider is touched down.")
-    public void OnTouchDown(Slider component) {
-        EventDispatcher.dispatchEvent(this, "OnTouchDown", component);
+    public void TouchDown(Slider component) {
+        EventDispatcher.dispatchEvent(this, "TouchDown", component);
     }
 
-    @SimpleEvent(description = "Rasies when any registered slider is touched down.")
-    public void OnTouchUp(Slider component) {
-        EventDispatcher.dispatchEvent(this, "OnTouchUp", component);
+    @SimpleEvent(description = "Rasies when any registered slider is touched up.")
+    public void TouchUp(Slider component) {
+        EventDispatcher.dispatchEvent(this, "TouchUp", component);
     }
 
     @SimpleFunction(description = "Register a slider component.")
@@ -58,17 +58,17 @@ public class SliderTools extends AndroidNonvisibleComponent {
                 public void onProgressChanged(SeekBar seekBar, int progress, boolean fromUser) {
                     float minValue = sliders.get(seekBar).MinValue();
                     float position = ((sliders.get(seekBar).MaxValue() - minValue) * (float) progress / 100) + minValue;
-                    OnChange(sliders.get(seekBar), position, fromUser);
+                    Changed(sliders.get(seekBar), position, fromUser);
                 }
 
                 @Override
                 public void onStartTrackingTouch(SeekBar seekBar) {
-                    OnTouchDown(sliders.get(seekBar));
+                    TouchDown(sliders.get(seekBar));
                 }
 
                 @Override
                 public void onStopTrackingTouch(SeekBar seekBar) {
-                    OnTouchUp(sliders.get(seekBar));
+                    TouchUp(sliders.get(seekBar));
                 }
 
             });
