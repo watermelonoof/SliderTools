@@ -140,8 +140,12 @@ The Error Ocuured event will only return exception error.
 	
 # Change Log
 
+## v1.2
+* Bug fixed - Change event will work now
+* Removed useless variable and Hashtable
+
 ## v1.1
-Changed the name of OnChange to Changed, suggested by [@Vishwas](https://community.kodular.io/u/vishwas)
+* Changed the name of OnChange to Changed, suggested by [@Vishwas](https://community.kodular.io/u/vishwas)
 
 # Reference
 [Kodular Community](https://community.kodular.io/t/free-open-source-slidertools-bit-of-useful-feature-for-sliders/86464)
