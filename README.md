@@ -44,7 +44,7 @@
                     <td>Return the component<br>that it's thumb position changed.</td>
                 </tr>
                 <tr>
-                    <td>component</td>
+                    <td>progress</td>
                     <td>Number (float)</td>
                     <td>Return the position of the slider<br>that it's thumn position changed.</td>
                 </tr>
